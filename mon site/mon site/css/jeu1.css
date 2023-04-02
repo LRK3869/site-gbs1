@@ -1,0 +1,43 @@
+html, body{
+
+    background-color: rgb(6, 111, 111);
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.sticky{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.card{
+    background-color: rgb(6, 111, 111);
+}
+
+.progress-bar{
+color: black;
+    background-color: orange;
+}
+
+h2{
+    background-color: rgb(6, 111, 111);
+
+    text-align: center;
+
+}
+
+.card{
+    border-color: rgb(110, 0, 110);
+}
+
+.btn{
+position: relative;
+}
