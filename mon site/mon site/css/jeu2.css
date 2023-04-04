@@ -1,4 +1,59 @@
 html, body{
 
-    background-color: rgb(0, 18, 77);
+    background-color: rgb(85, 85, 85);
 }
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.sticky{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.card{
+    background-color:rgb(85, 85, 85);
+}
+
+.progress-bar{
+color: black;
+    background-color: rgb(255, 0, 0);
+}
+
+.progress-bar{
+
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(85, 85, 85);
+
+    text-align: center;
+
+}
+
+.card-group{
+    border-color: rgb(253, 253, 253);
+    text-align: center;
+   
+
+}
+
+.card{
+    border-color: rgb(44, 45, 0);
+    text-align: center;
+
+}
+.btn{
+    background-color: black;
+ display: flex;
+     justify-content: center;
+    align-items: center;
+ }

@@ -10,9 +10,7 @@ html, body {
 
 }
 
-body{
 
-}
 
 .sticky{
 
@@ -76,7 +74,7 @@ body{
 
  
 .card-header3{
-
+justify-content: center;
     text-align: center;
  }
 h2, h3{
@@ -88,3 +86,10 @@ p{
 }
 
 
+.btn{
+    background-color: black;
+ display: flex;
+     justify-content: center;
+    align-items: center;
+ }
+ 
