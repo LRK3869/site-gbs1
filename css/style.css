@@ -8,13 +8,18 @@ html, body {
     margin: 0%;
     padding: 0%;
 
-
 }
 
-.nav{
+
+
+.sticky{
+
     position: sticky;
-    top: 0px;
-  }
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
 
 .ligne{
 
@@ -38,15 +43,27 @@ html, body {
     color: rgb(255, 255, 255);
 }
 
+.card-header1{
+    background-color: rgb(76, 183, 245);
+ 
+ }
+
+ .card-header1{
+
+    text-align: center;
+ }
+
 .card-header2{
    background-color: rgb(76, 76, 76);
 
 }
 
-.card-header1{
-    background-color: rgb(76, 183, 245);
- 
+.card-header2{
+
+    text-align: center;
  }
+
+
 
 
  .card-header3{
@@ -55,5 +72,24 @@ html, body {
  }
 
 
+ 
+.card-header3{
+justify-content: center;
+    text-align: center;
+ }
+h2, h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
 
 
+.btn{
+    background-color: black;
+ display: flex;
+     justify-content: center;
+    align-items: center;
+ }
+ 
